@@ -84,7 +84,7 @@ var Share = me.GUI_Object.extend({
     },
 
     onClick: function(event) {
-        var shareText = 'Just made ' + game.data.steps + ' steps on Clumsy Bird! Can you beat me? Try online here!';
+        var shareText = 'Just made1 ' + game.data.steps + ' steps on Clumsy Bird! Can you beat me? Try online here!';
         var url = 'http://ellisonleao.github.io/clumsy-bird/';
         FB.ui(
             {
@@ -98,6 +98,7 @@ var Share = me.GUI_Object.extend({
              picture: 'http://ellisonleao.github.io/clumsy-bird/data/img/clumsy.png'
             }
         );
+        window.alert(game.data.steps);
         return false;
     }
 
