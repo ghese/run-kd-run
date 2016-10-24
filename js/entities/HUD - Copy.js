@@ -98,7 +98,6 @@ var Share = me.GUI_Object.extend({
              picture: 'http://ellisonleao.github.io/clumsy-bird/data/img/clumsy.png'
             }
         );
-        alert(game.data.steps);
         return false;
     }
 
